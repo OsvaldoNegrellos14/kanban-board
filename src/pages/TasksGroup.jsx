@@ -59,13 +59,15 @@ export const TasksGroup = () => {
                   <TagName>#{nameTag}</TagName>
                 </Grid>
                 {
-                  datas.map((task) => {
-                    return (
-                      <Grid xs={12} md={6} lg={3} key={uuid()} justify='center'>
-                        <CardTaskView task={task} />
-                      </Grid>
-                    )
-                  })
+                  datas.length > 0
+                    ? datas.map((task) => {
+                      return (
+                        <Grid xs={12} md={6} lg={3} key={uuid()} justify='center'>
+                          <CardTaskView task={task} />
+                        </Grid>
+                      )
+                    })
+                    : <h3>No hay tareas disponibles</h3>
                 }
               </CardContainer>
             )

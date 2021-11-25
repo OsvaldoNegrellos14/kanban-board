@@ -13,6 +13,7 @@ const INITIAL_TASKS = JSON.parse(localStorage.getItem('tasks')) ? JSON.parse(loc
 export const Home = () => {
   const [dataTable, setDataTable] = useState(STAGES)
   const [tasks, setTasks] = useState(INITIAL_TASKS)
+
   // console.log(tasks)
   return (
     <>

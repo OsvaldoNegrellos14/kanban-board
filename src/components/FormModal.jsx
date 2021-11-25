@@ -88,7 +88,7 @@ export const FormModal = (
   const updateTask = (idTask) => {
     const newState = stageTasks[indexStageTasks].map((dataTask) => {
       if (dataTask.id === idTask) {
-        console.log('entro al if')
+        // console.log('entro al if')
         return formState
       }
       return dataTask

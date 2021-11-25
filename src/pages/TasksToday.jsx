@@ -19,6 +19,7 @@ export const TasksToday = () => {
     }
   })
   // console.log(datas)
+  // console.log(datas)
   return (
     <>
       <Container>
@@ -28,13 +29,15 @@ export const TasksToday = () => {
         </Grid.Container>
         <CardContainer gap={2} justify='center'>
           {
-            datas.map((task) => {
-              return (
-                <Grid xs={12} md={6} lg={3} key={uuid()} justify='center'>
-                  <CardTaskView task={task} />
-                </Grid>
-              )
-            })
+            datas.length > 0
+              ? datas.map((task) => {
+                return (
+                  <Grid xs={12} md={6} lg={3} key={uuid()} justify='center'>
+                    <CardTaskView task={task} />
+                  </Grid>
+                )
+              })
+              : <h3>No hay tareas urgentes</h3>
           }
         </CardContainer>
       </Container>
