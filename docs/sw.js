@@ -1,3 +1,4 @@
+/* eslint-disable no-new */
 /* eslint-disable prefer-regex-literals */
 /* eslint-disable no-undef */
 /* eslint-disable array-callback-return */
@@ -29,6 +30,12 @@ workbox.routing.registerRoute(
   new RegExp('\\.svg'),
   new workbox.strategies.CacheOnly()
 )
+
+new WorkboxPlugin.GenerateSW({
+  clientsClaim: true,
+  skipWaiting: true,
+  exclude: [/swagger-ui/]
+})
 
 // const cacheName = 'cacheV1'
 // const contentCache = [
