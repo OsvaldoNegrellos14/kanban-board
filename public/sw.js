@@ -5,7 +5,7 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-sw.js')
 
 workbox.precaching.precacheAndRoute([
-  '/',
+  './',
   'static/js/vendors~main.chunk.js',
   'static/js/main.chunk.js',
   'static/media/idea.0989fa83.svg',
