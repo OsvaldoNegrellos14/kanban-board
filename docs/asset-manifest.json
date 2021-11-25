@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "./static/js/main.86a26386.chunk.js",
-    "main.js.map": "./static/js/main.86a26386.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.af8742dc.js",
-    "runtime-main.js.map": "./static/js/runtime-main.af8742dc.js.map",
-    "static/js/2.4d96bab6.chunk.js": "./static/js/2.4d96bab6.chunk.js",
-    "static/js/2.4d96bab6.chunk.js.map": "./static/js/2.4d96bab6.chunk.js.map",
-    "index.html": "./index.html",
-    "static/js/2.4d96bab6.chunk.js.LICENSE.txt": "./static/js/2.4d96bab6.chunk.js.LICENSE.txt",
-    "static/media/idea.0989fa83.svg": "./static/media/idea.0989fa83.svg",
-    "static/media/sandglass.1f144e33.svg": "./static/media/sandglass.1f144e33.svg",
-    "static/media/star.de82f684.svg": "./static/media/star.de82f684.svg",
-    "static/media/work-in-progress.05e15602.svg": "./static/media/work-in-progress.05e15602.svg"
+    "main.js": "/kanban-board/static/js/main.86a26386.chunk.js",
+    "main.js.map": "/kanban-board/static/js/main.86a26386.chunk.js.map",
+    "runtime-main.js": "/kanban-board/static/js/runtime-main.0ce33fc0.js",
+    "runtime-main.js.map": "/kanban-board/static/js/runtime-main.0ce33fc0.js.map",
+    "static/js/2.f9463177.chunk.js": "/kanban-board/static/js/2.f9463177.chunk.js",
+    "static/js/2.f9463177.chunk.js.map": "/kanban-board/static/js/2.f9463177.chunk.js.map",
+    "index.html": "/kanban-board/index.html",
+    "static/js/2.f9463177.chunk.js.LICENSE.txt": "/kanban-board/static/js/2.f9463177.chunk.js.LICENSE.txt",
+    "static/media/idea.0989fa83.svg": "/kanban-board/static/media/idea.0989fa83.svg",
+    "static/media/sandglass.1f144e33.svg": "/kanban-board/static/media/sandglass.1f144e33.svg",
+    "static/media/star.de82f684.svg": "/kanban-board/static/media/star.de82f684.svg",
+    "static/media/work-in-progress.05e15602.svg": "/kanban-board/static/media/work-in-progress.05e15602.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.af8742dc.js",
-    "static/js/2.4d96bab6.chunk.js",
+    "static/js/runtime-main.0ce33fc0.js",
+    "static/js/2.f9463177.chunk.js",
     "static/js/main.86a26386.chunk.js"
   ]
 }
