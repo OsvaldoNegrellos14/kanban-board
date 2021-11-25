@@ -31,12 +31,6 @@ workbox.routing.registerRoute(
   new workbox.strategies.CacheOnly()
 )
 
-new WorkboxPlugin.GenerateSW({
-  clientsClaim: true,
-  skipWaiting: true,
-  exclude: [/swagger-ui/]
-})
-
 // const cacheName = 'cacheV1'
 // const contentCache = [
 // '/',
