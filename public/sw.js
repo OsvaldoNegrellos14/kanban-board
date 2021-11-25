@@ -4,10 +4,13 @@
 /* eslint-disable array-callback-return */
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-sw.js')
 
+// precaching for deploy
 workbox.precaching.precacheAndRoute([
   './',
-  'static/js/vendors~main.chunk.js',
-  'static/js/main.chunk.js',
+  'app.js',
+  'static/js/2.4d96bab6.chunk.js',
+  'static/js/main.86a26386.chunk.js',
+  'static/js/runtime-main.af8742dc.js',
   'static/media/idea.0989fa83.svg',
   'static/media/sandglass.1f144e33.svg',
   'static/media/work-in-progress.05e15602.svg',
@@ -15,10 +18,27 @@ workbox.precaching.precacheAndRoute([
   'assets/favicon-32x32.png',
   'assets/favicon-96x96.png',
   'manifest.json',
-  'assets/android-icon-144x144.png',
-  'app.js',
-  'sw.js'
+  'sw.js',
+  'OneSignalSDKUpdaterWorker.js',
+  'OneSignalSDKWorker.js'
 ])
+// precaching for localhost
+// workbox.precaching.precacheAndRoute([
+//   '/',
+//   'static/js/bundle.js',
+//   'static/js/vendors~main.chunk.js',
+//   'static/js/main.chunk.js',
+// 'static/media/idea.0989fa83.svg',
+// 'static/media/sandglass.1f144e33.svg',
+// 'static/media/work-in-progress.05e15602.svg',
+// 'static/media/star.de82f684.svg',
+// 'assets/favicon-32x32.png',
+// 'assets/favicon-96x96.png',
+//   'manifest.json',
+//   'assets/android-icon-144x144.png',
+//   'app.js',
+//   'sw.js'
+// ])
 
 workbox.routing.registerRoute(
   new RegExp('\\.js'),
